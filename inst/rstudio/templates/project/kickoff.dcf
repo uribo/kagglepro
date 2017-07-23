@@ -1,0 +1,33 @@
+Binding: kickoff
+Title: Kaggle Competition
+OpenFiles: INDEX
+
+Parameter: data_ignore
+Widget: CheckboxInput
+Label: Data folder to add .gitignore
+Default: On
+Position: left
+
+Parameter: dockerfile
+Widget: CheckboxInput
+Label: Create the Dockerfile
+Default: On
+Position: left
+
+Parameter: dockerfile_import
+Widget: FileInput
+Label: Based Dockerfile Import
+Default: ~/Dockerfile
+Position: right
+
+Parameter: maintainer
+Widget: TextInput
+Label: Maintainer's name
+Default:
+Position: right
+
+Parameter: maintainer_mail
+Widget: TextInput
+Label: Maintainer's mail
+Default:
+Position: right
